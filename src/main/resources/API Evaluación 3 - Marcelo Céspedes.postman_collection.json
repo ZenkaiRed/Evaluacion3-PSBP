@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "b3464e9a-5315-4865-9f0a-5bd1d5ccf84a",
+		"name": "API Evaluación 3 - Marcelo Céspedes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26548184"
+	},
+	"item": [
+		{
+			"name": "Reserves",
+			"item": [
+				{
+					"name": "EndPoint - 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:9000/api/usuarios/ordenes"
+					},
+					"response": []
+				},
+				{
+					"name": "Endpoint - 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:9000/api/platillos/ordenes"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
