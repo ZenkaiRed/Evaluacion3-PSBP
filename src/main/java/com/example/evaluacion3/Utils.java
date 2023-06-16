@@ -19,9 +19,9 @@ public class Utils {
             LocalDate fechaOrden = orden.getOrder_at();
 
             if (fechaActual.isEqual(fechaOrden) || fechaMesAnterior.isEqual(fechaOrden)){
-                count++;
+                count += orden.getPlatillo().getPrice();
             }else if (fechaOrden.isAfter(fechaMesAnterior) && fechaOrden.isBefore(fechaActual)) {
-                count++;
+                count += orden.getPlatillo().getPrice();
             }
         }
         return count;
